@@ -2,9 +2,7 @@
 
 A fast, vectorized Cuckoo filter implementation in Go with zero allocations in hot paths and in encoding to/decoding from its in-memory representation.
 
-Out-of-the-box, cuckoo comes with nice defaults for the purposes of state reconciliation across a distributed system.
-
-Though, feel free to configure the total number of buckets/number of bytes per bucket in [filter.go](filter.go) to taste for your specific application.
+Out-of-the-box, cuckoo comes with nice defaults for the purposes of state reconciliation across a distributed system. Though, feel free to configure the total number of buckets/number of bytes per bucket in [filter.go](filter.go) to taste for your specific application.
 
 Refer to [filter_test.go](filter_test.go) for usage instructions.
 
