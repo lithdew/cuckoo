@@ -1,5 +1,9 @@
 # cuckoo
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](LICENSE)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/lithdew/cuckoo)
+[![Discord Chat](https://img.shields.io/discord/697002823123992617)](https://discord.gg/58dJzS)
+
 A fast, vectorized Cuckoo filter implementation in Go with zero allocations in hot paths and in encoding to/decoding from its in-memory representation.
 
 Out-of-the-box, cuckoo comes with nice defaults for the purposes of state reconciliation across a distributed system. Though, feel free to configure the total number of buckets/number of bytes per bucket in [filter.go](filter.go) to taste for your specific application.
